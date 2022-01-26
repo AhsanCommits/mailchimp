@@ -1,0 +1,133 @@
+/*=======================================================================================
+
+                    Tamplate Name           :      project-1.
+                    Tamplate Description    :      A website where you can find about all things you want about us.
+                    Tamplate URL            :      "#";
+                    Author                  :      Rafiul Alam.
+                    Authour URL             :      "#"
+                    Tamplate ver            :      1.0  .
+===========================================================================================*/
+
+
+/*=======================================================================================
+                                    Css index
+=========================================================================================
+                1.Google fonts
+                2.Common Css
+                3.Reusable Components
+                4. Hero
+                5. 
+
+=========================================================================================*/
+
+
+/*========================================================
+                     fonts
+===========================================================*/
+@font-face{
+    src:url(recources/font/MinionPro-Regular.otf);
+    font-family: min-regular;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+/*=================================================================
+                    Video section
+==================================================================*/
+.video-sec{
+    object-fit: fill;
+}
+
+.video{
+    
+    height: 100vh;
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+}
+
+/*=================================================================
+                    text section
+==================================================================*/
+.text-cont{
+    background-color: #F1EBE7;
+}
+
+.text-sec{
+    padding: 90px 50px;
+    background-color:#F1EBE7;
+}
+.text-box{
+    padding: 0 20px;
+}
+.text-box p{
+    width:920px;
+    text-align: center;
+    font-family: min-regular;
+    font-size: 40px;
+    line-height: 1.5 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    letter-spacing: -1px !important;
+    word-spacing: 0px;
+    color:#000;
+}
+.text>span{
+    position: relative;
+    width:80px;
+    height: 10px;
+    display: inline-block;
+    
+}
+.text span .b-circle{
+    height: 75px;
+    width:75px;
+    background-color:#C0D7E9; 
+    display:block;
+    border-radius: 100%;
+    position:absolute;
+    top:-40px;
+
+}
+
+
+/*===============================================================
+                    footer section
+==================================================================*/
+#footer{
+    background-color:#F1EBE7; 
+     padding:30px 0;
+}
+
+
+.footer-text{
+    color:#5E748E;
+    font-family: 'Poppins', sans-serif;
+}
+.social-box ul{
+    margin-top: 10px;
+    background-color: #F1EBE7; 
+    padding: 10px 20px;
+    text-align: center;
+    display:inline-block;
+    
+
+}
+.social-box ul li a i{
+    color:#000;
+    font-size: 16px;
+}
+.social-box ul li a i:hover{
+    color:#000;
+}
+.social-box{
+    text-align: end;
+}
+.blu{
+    width:12px;
+    height:1px;
+    display: inline-block;
+    background-color: #5E748E;
+    margin-bottom: 6px;
+}

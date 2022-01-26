@@ -1,0 +1,55 @@
+@media screen and (max-width:1200px){
+    
+    .text-sec{
+        box-sizing: border-box;
+        padding:90px 20px
+        
+    }
+}
+
+@media screen and (max-width:990px){
+    
+    .text-sec{
+        padding:90px 20px;
+        padding-left:0;
+        
+    }
+    
+    .text-box p{
+    width:auto;
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.5 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    letter-spacing: -1px !important;
+    word-spacing: 0px;
+
+}
+.text>span{
+
+    width:80px;
+    height: 10px;
+
+    
+}
+.text span .b-circle{
+    height: 75px;
+    width:75px;
+
+
+}
+    
+}
+
+
+@media screen and (max-width:1200px){
+    
+.social-box{
+    text-align: center;
+    margin-top:20px;
+}
+
+}
+
+
